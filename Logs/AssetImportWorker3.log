@@ -1,0 +1,2038 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.16f1 (7f45223012db) revision 8340770'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'ko' Physical Memory: 32594 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2023.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/이우진/Desktop/Game/Adventure
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50547
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/이우진/Desktop/Game/Adventure
+C:/Users/이우진/Desktop/Game/Adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16324] Host "[IP] 10.194.46.241 [Port] 0 [Flags] 2 [Guid] 3544273635 [EditorId] 3544273635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9PFN9G9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16324] Host "[IP] 10.194.46.241 [Port] 0 [Flags] 2 [Guid] 3544273635 [EditorId] 3544273635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9PFN9G9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.16f1 (7f45223012db)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2023.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/이우진/Desktop/Game/Adventure/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2023.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2023.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2023.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2023.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001236 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.226 seconds
+Domain Reload Profiling: 498ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (96ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\이우진\Desktop\Game\Adventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\이우진\Desktop\Game\Adventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 967ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (84ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4159 unused Assets / (1.2 MB). Loaded Objects now: 4720.
+Memory consumption went from 122.2 MB to 121.1 MB.
+Total: 6.703000 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.125300 ms MarkObjects: 4.976700 ms  DeleteObjects: 1.324900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3140.240380 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Chandelier.fbx
+  artifactKey: Guid(6b596b44345a31449b0a45c5c08932c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Chandelier.fbx using Guid(6b596b44345a31449b0a45c5c08932c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff8c11afeed002c9c70ebe7f6b0500b5') in 0.0895984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Full_Var2.fbx
+  artifactKey: Guid(c161e5586532ebc4e8de1f9a45c2754e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Full_Var2.fbx using Guid(c161e5586532ebc4e8de1f9a45c2754e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d17e101f0b4dcb96a172141087548b5') in 0.0134425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Branch.fbx
+  artifactKey: Guid(72c499c22acd8d242bb45e122ec43fb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Branch.fbx using Guid(72c499c22acd8d242bb45e122ec43fb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64419e764c4d19691e4d5e71cbe79aee') in 0.0150102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237986 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Left.fbx
+  artifactKey: Guid(c2d7e7ca81bdbf442942799f88018308) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Left.fbx using Guid(c2d7e7ca81bdbf442942799f88018308) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c1bf8651781d41db673467048af50fd') in 0.0156001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Disc.png
+  artifactKey: Guid(49b2bca3a3f8d7a48bbc281b2a42304c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Disc.png using Guid(49b2bca3a3f8d7a48bbc281b2a42304c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12015cd8f592c4a2b17b9525089b0a16') in 0.0350694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Compress.png
+  artifactKey: Guid(3bc40403c8e3e564ea87b52fdfa22c67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Compress.png using Guid(3bc40403c8e3e564ea87b52fdfa22c67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecd020e85c1e67586e78262683fde005') in 0.0157791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Fish 2.png
+  artifactKey: Guid(4ed054b89ed50074cbc9fc2e896ab9a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Fish 2.png using Guid(4ed054b89ed50074cbc9fc2e896ab9a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f65ac7031c1ab7608902d6034782827') in 0.0165166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_palm4.fbx
+  artifactKey: Guid(211e34aab665865418c09a0d4d5ac48c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_palm4.fbx using Guid(211e34aab665865418c09a0d4d5ac48c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e434d95e6befd9f28f4cf76c7b4fd249') in 0.0158801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Torch_Wall.fbx
+  artifactKey: Guid(fe2e85b4d6271d84797599c39656320c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Torch_Wall.fbx using Guid(fe2e85b4d6271d84797599c39656320c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '291c2a24f027087cedc27df8b3122875') in 0.0150286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Amphora_Stand.fbx
+  artifactKey: Guid(e21b6c9b113d50a4b865c5a99ce0a58e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Amphora_Stand.fbx using Guid(e21b6c9b113d50a4b865c5a99ce0a58e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3104955171205475bd3c15a2cdd6a00') in 0.0165921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Chest.png
+  artifactKey: Guid(e43952f029d87404b8e6401bed71c7ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Chest.png using Guid(e43952f029d87404b8e6401bed71c7ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a80ca2993e1f28b50adf398aab73498e') in 0.0167857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_open_01.fbx
+  artifactKey: Guid(1fbf94879a0f0994fa5740be3a276cf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_open_01.fbx using Guid(1fbf94879a0f0994fa5740be3a276cf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a90276a6cae75dd46f34dd68c18f1647') in 0.0148627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/TombstoneType1_Plain_2.fbx
+  artifactKey: Guid(682f3128a563fc0468a91fb9260c1f6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/TombstoneType1_Plain_2.fbx using Guid(682f3128a563fc0468a91fb9260c1f6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5458669af690c5f76437ceffa9e0a786') in 0.0202688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sysmbol 2.png
+  artifactKey: Guid(d5b3390a688e4734fb45b156d705007e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Sysmbol 2.png using Guid(d5b3390a688e4734fb45b156d705007e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5381617199eddf317ac5e4a3bb3f4a63') in 0.0141222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/TombstoneType1_Bevel_2.fbx
+  artifactKey: Guid(2eb48d04a65277641a0a21744e0468fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/TombstoneType1_Bevel_2.fbx using Guid(2eb48d04a65277641a0a21744e0468fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f70ee783b871003622648094cce54cf') in 0.0160824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/Free/128 Light 2.png
+  artifactKey: Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/128 Light 2.png using Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b76069ff9394188e574a23526180348') in 0.0168024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_01.fbx
+  artifactKey: Guid(40e0d5f6dd52bb447a539f8d208023f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_01.fbx using Guid(40e0d5f6dd52bb447a539f8d208023f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8969ea748d488b55c2e9ae5522a0cc86') in 0.0147625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Questions 1.png
+  artifactKey: Guid(680e9b1dee678594a9afacc5ee31912d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Questions 1.png using Guid(680e9b1dee678594a9afacc5ee31912d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd599a9e00f3aea60adcd38515a28fe6f') in 0.0166462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/DoorGate_Wooden_Left.fbx
+  artifactKey: Guid(a26e8605291c03d42ba85f7364aea582) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/DoorGate_Wooden_Left.fbx using Guid(a26e8605291c03d42ba85f7364aea582) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b486f00899c3e71edfca57375132e76') in 0.0137559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Materials/Clay_Wall.mat
+  artifactKey: Guid(8e90f1972e9202342a92770b7b92f19b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Materials/Clay_Wall.mat using Guid(8e90f1972e9202342a92770b7b92f19b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d499b781f788be5c3e6ccab9b90b4e6') in 0.0428267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Wall_Stairs_Right.fbx
+  artifactKey: Guid(7c2f4c5b4c477554c834c3e41cfa4cbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Wall_Stairs_Right.fbx using Guid(7c2f4c5b4c477554c834c3e41cfa4cbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13df8b95dac5b9eca63e301f3cbf8a84') in 0.0171929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Party Pop.png
+  artifactKey: Guid(2b131a3b7c020d140ad75182bcb4f8de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Party Pop.png using Guid(2b131a3b7c020d140ad75182bcb4f8de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ae94a03257bad13a152826fb5967d11') in 0.0157698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_golden_decor3.fbx
+  artifactKey: Guid(25677b54a54851041894536600b3f579) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_golden_decor3.fbx using Guid(25677b54a54851041894536600b3f579) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3553edd0769c5e0e22bb4bbe58723bc') in 0.0153314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_09.fbx
+  artifactKey: Guid(4e2f1a5d4a9f2da4c8e9e604e5e27d5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_09.fbx using Guid(4e2f1a5d4a9f2da4c8e9e604e5e27d5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad28e6abb6830e6d24179aa4cdac015b') in 0.0192306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Right_col.fbx
+  artifactKey: Guid(bfc125062dd4b9f45a777c24abbdb02b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Right_col.fbx using Guid(bfc125062dd4b9f45a777c24abbdb02b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed734301f392304940c42c37df4e8683') in 0.0147621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Menu 2.png
+  artifactKey: Guid(8dce6b83a1bc84447b30d011580848e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Menu 2.png using Guid(8dce6b83a1bc84447b30d011580848e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '787e92ad365a0b4528a79aea125e9b5d') in 0.0150446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Hallway_Half_col.fbx
+  artifactKey: Guid(974e386400762d740b4bf8ec444ca180) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Hallway_Half_col.fbx using Guid(974e386400762d740b4bf8ec444ca180) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c4b5f11e48235b9bfa7eea60c4764a9') in 0.014459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Books.png
+  artifactKey: Guid(70b936aef4182ea4e98cfe1419be46f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Books.png using Guid(70b936aef4182ea4e98cfe1419be46f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b87f4465c993a9cb117fef1de0abbe6e') in 0.0138352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx
+  artifactKey: Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx using Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f26e04df2d29714c769e4b3ca8570e4') in 0.0134456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/TombFantasyEnclosed_2.fbx
+  artifactKey: Guid(14457165f3b017149861d337034efda4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/TombFantasyEnclosed_2.fbx using Guid(14457165f3b017149861d337034efda4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18ad723971753891e2a5ab332822fe4b') in 0.0141068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Chest_Lid.fbx
+  artifactKey: Guid(4ad289074c1d9c2469c5bea23e1b3704) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Chest_Lid.fbx using Guid(4ad289074c1d9c2469c5bea23e1b3704) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61c290d7e2f50c480b8c56b556210676') in 0.013986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Music.png
+  artifactKey: Guid(06a16cb520d0f2449a999572cae2cf97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Music.png using Guid(06a16cb520d0f2449a999572cae2cf97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '569bc40697af13fccb23940be9b72450') in 0.0149761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sad 1.png
+  artifactKey: Guid(c66141a215c08e347882017d498f50e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Sad 1.png using Guid(c66141a215c08e347882017d498f50e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d871d07d25d22d63ade4da4769b751c') in 0.015448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Stairs_03_Collision.fbx
+  artifactKey: Guid(a00fad730f6d8014fbd0a774a71d2620) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Stairs_03_Collision.fbx using Guid(a00fad730f6d8014fbd0a774a71d2620) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c130fe816b1c28f5c0212bc000beb3c') in 0.0147032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580795 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/GraveCircleStumpSlightDamage_2.fbx
+  artifactKey: Guid(ee6f88f5b2ad93b42a134a964fa039ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/GraveCircleStumpSlightDamage_2.fbx using Guid(ee6f88f5b2ad93b42a134a964fa039ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ba706c1b0c5a28b5006b30fe1b6aa43') in 0.0185447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_crack_04.fbx
+  artifactKey: Guid(3f2b82a74411fba4d8024d9e10dc87af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_crack_04.fbx using Guid(3f2b82a74411fba4d8024d9e10dc87af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c5752089cbd7a1844bfd44d43b9a321') in 0.0159369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/Present_House_LVL_3/CGM_ENV_BLD_LVL3_sharp_pillar1.fbx
+  artifactKey: Guid(9dffd20d748f8354cbbf059207045cb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/Present_House_LVL_3/CGM_ENV_BLD_LVL3_sharp_pillar1.fbx using Guid(9dffd20d748f8354cbbf059207045cb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bc0484904e78d11b026453c44131265') in 0.0174283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Battery Storage.png
+  artifactKey: Guid(213a7b64eaee46e4b89efefe49d383de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Battery Storage.png using Guid(213a7b64eaee46e4b89efefe49d383de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26d2a352d6ec5305d5b17b2c9e3dbea4') in 0.0158612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Energy.png
+  artifactKey: Guid(9b03d0e2a9247694d920c0e8d27668d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Energy.png using Guid(9b03d0e2a9247694d920c0e8d27668d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01214d422a1ea3a175411da0e97e52d8') in 0.0164197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Gift.png
+  artifactKey: Guid(0a9348ff9de6b7c4db0399ea17e32017) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Gift.png using Guid(0a9348ff9de6b7c4db0399ea17e32017) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '235e357257d8d0ad340d217d2d0852ae') in 0.013603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/DoorGate_Wooden_Left_col.fbx
+  artifactKey: Guid(3ff66bdc0340eff42b48c79a6f8f0a21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/DoorGate_Wooden_Left_col.fbx using Guid(3ff66bdc0340eff42b48c79a6f8f0a21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57dc7b9a83bf93036239c38bfad0668') in 0.0146025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_corner_04.fbx
+  artifactKey: Guid(f974f0281654e9644b25720c99ffef91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_corner_04.fbx using Guid(f974f0281654e9644b25720c99ffef91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '692ddd451f1324fbdcf2b46257347ee7') in 0.0140394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/WeaponRack_Big.fbx
+  artifactKey: Guid(5a3630cf5f3e0b7489e748180d9a081a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/WeaponRack_Big.fbx using Guid(5a3630cf5f3e0b7489e748180d9a081a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96ac3523d84b522dabf528b14824190a') in 0.0156406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_dust_6.fbx
+  artifactKey: Guid(e93f8128e79bf784bb14e4ff2b645ab0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_dust_6.fbx using Guid(e93f8128e79bf784bb14e4ff2b645ab0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd33570da66e505bc4c8546ec0b4d5011') in 0.0152929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wooden_doorway_on_the_foundation_01.fbx
+  artifactKey: Guid(9e1d799e23b08834ebf88dd9303e11be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wooden_doorway_on_the_foundation_01.fbx using Guid(9e1d799e23b08834ebf88dd9303e11be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '336aa5060bd0f81d3e9b4c48346f0a67') in 0.0143912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_big_05.fbx
+  artifactKey: Guid(6c5193db986991f42888497c7db13a82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_big_05.fbx using Guid(6c5193db986991f42888497c7db13a82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87be25edce65e55adc28914c183bd3cb') in 0.0148109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Meat.fbx
+  artifactKey: Guid(fd8f5bc11b0289948b50da67132110ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Meat.fbx using Guid(fd8f5bc11b0289948b50da67132110ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02bfe4905b04e601aaae2e19e062c5ef') in 0.0158332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_roof_ground3.fbx
+  artifactKey: Guid(24dab0e592c6b1f46b268c276c185f59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_roof_ground3.fbx using Guid(24dab0e592c6b1f46b268c276c185f59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa50bfb2ca7f619e7c940886b86c7e60') in 0.0140728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Board_04.fbx
+  artifactKey: Guid(7d9d4f308f648dd40b4da98f595c5352) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Board_04.fbx using Guid(7d9d4f308f648dd40b4da98f595c5352) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '248b2f91c5a2afcbfcd7ceb592831083') in 0.0145912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_03.fbx
+  artifactKey: Guid(eaaf5a2084c8ae34eb49a7511d3a0c62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_03.fbx using Guid(eaaf5a2084c8ae34eb49a7511d3a0c62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9c3591340441f08b1d55f331b9d6972') in 0.0131674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_dust_7.fbx
+  artifactKey: Guid(8545d4dbb99ec35409777a5c9258c9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_dust_7.fbx using Guid(8545d4dbb99ec35409777a5c9258c9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '593b2d774c249c89c905f8ab4c0410b0') in 0.0137697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Time.png
+  artifactKey: Guid(a40a3560ea6b3394ca8c94f5bcebb3ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Time.png using Guid(a40a3560ea6b3394ca8c94f5bcebb3ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5855f7af61d0375929368c6c1f039000') in 0.015098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/TombFantasyCross_2.fbx
+  artifactKey: Guid(bac9aee9d6b93854d8de7be663079a13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/TombFantasyCross_2.fbx using Guid(bac9aee9d6b93854d8de7be663079a13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c6ad9b0ed25b156fce6866be5cb8091') in 0.0160245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Props
+  artifactKey: Guid(df9df7b0e1e136c40b3bcac648115db9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Props using Guid(df9df7b0e1e136c40b3bcac648115db9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99c2bdac74585b7455063399e747c4ba') in 0.0083979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_09.fbx
+  artifactKey: Guid(bcbad261eb4355440be63376740c36d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_09.fbx using Guid(bcbad261eb4355440be63376740c36d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a0700cc0dd5f897fd012d5a8eb83a3') in 0.0150561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_big_03.fbx
+  artifactKey: Guid(260d7c028561cdd4e881164cd4c10d63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_big_03.fbx using Guid(260d7c028561cdd4e881164cd4c10d63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cda9b6e3836039486312ca6185ab33b') in 0.0147583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_palm11.fbx
+  artifactKey: Guid(fb7400276fa9105438333cfd6652495c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_palm11.fbx using Guid(fb7400276fa9105438333cfd6652495c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc3e8344e48b300fc2a0befda944372') in 0.0165619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Materials/Water_Muddy.mat
+  artifactKey: Guid(494981161fba9a84988dfa524440ea4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Materials/Water_Muddy.mat using Guid(494981161fba9a84988dfa524440ea4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42315c720649f5fa5bbd86acbff8f188') in 0.0123862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_on_the_foundation_01.fbx
+  artifactKey: Guid(d77378c5cb2d5bf498e897664186bb5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_on_the_foundation_01.fbx using Guid(d77378c5cb2d5bf498e897664186bb5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cde096cb1a699a4743f2d009ef6a57fe') in 0.0159097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Banner.png
+  artifactKey: Guid(d049d405e9ee26b4aa2e095359ad416f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Banner.png using Guid(d049d405e9ee26b4aa2e095359ad416f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9955ec323d79cfb946941fcb63f3071') in 0.0138956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/LowPolyAxe.fbx
+  artifactKey: Guid(f532911410a807e4d9293715f61e6276) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/LowPolyAxe.fbx using Guid(f532911410a807e4d9293715f61e6276) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f25b1f1cc17c37df1747e46ad2e02b0c') in 0.0134414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Ground
+  artifactKey: Guid(62b6b25a953596445be0ddcdc01d467f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Ground using Guid(62b6b25a953596445be0ddcdc01d467f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22e0460d26b078e41aedd75d890eebb6') in 0.0092561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Expand.png
+  artifactKey: Guid(07230c17de668be488c33476fe450846) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Expand.png using Guid(07230c17de668be488c33476fe450846) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '931500afe2d275729ffcd3cedad9e208') in 0.0151666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/Present_House_LVL_3/CGM_ENV_BLD_LVL3_palace1.fbx
+  artifactKey: Guid(3fb5c6a8532e5244eb4d9d929ca9fc44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/Present_House_LVL_3/CGM_ENV_BLD_LVL3_palace1.fbx using Guid(3fb5c6a8532e5244eb4d9d929ca9fc44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4768759272d6854f5a034d874b94f441') in 0.0158194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Stairs_High_col.fbx
+  artifactKey: Guid(cae49dc2587049146a09ec771a13b0d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Stairs_High_col.fbx using Guid(cae49dc2587049146a09ec771a13b0d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22a43506d87e8800be73277967d930cf') in 0.0131393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Weapons/CGM_ENV_WEP_khopesh4.fbx
+  artifactKey: Guid(6eff613ba7ed0834198a1a9b1baa3842) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Weapons/CGM_ENV_WEP_khopesh4.fbx using Guid(6eff613ba7ed0834198a1a9b1baa3842) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c27b2022573d93f35a4b9bc7963b6c59') in 0.0156619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Light_Plate_Collision.fbx
+  artifactKey: Guid(0e96646baccd37c45b0742740c8293cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Light_Plate_Collision.fbx using Guid(0e96646baccd37c45b0742740c8293cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e7b936d6c646f2c4d2a20b7d698a0ef') in 0.0104913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Balcon_col.fbx
+  artifactKey: Guid(fda570f865414d7488dcbdef0612e4c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Balcon_col.fbx using Guid(fda570f865414d7488dcbdef0612e4c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c720029b0e6bbff1d128718e0a0472ee') in 0.013868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468403 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Japanese Yen.png
+  artifactKey: Guid(acb80885a9120e54a901e48f061e9d9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Japanese Yen.png using Guid(acb80885a9120e54a901e48f061e9d9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2e6ed7102361e39aab002bcfa3f9fef') in 0.0157412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_05.fbx
+  artifactKey: Guid(6630c633826648d4fbabad91f4e3b679) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_05.fbx using Guid(6630c633826648d4fbabad91f4e3b679) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cde2bf7cb3a32535750d4bb6d3c52a14') in 0.0244069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/Free/64 Light 2.png
+  artifactKey: Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/64 Light 2.png using Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21a3235431d9d754b7309918b9d5ec6d') in 0.0161202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sound Off.png
+  artifactKey: Guid(0bdf73acc8139174494a96cd50f61ec2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Sound Off.png using Guid(0bdf73acc8139174494a96cd50f61ec2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '820aee4f4dc47b222729874a4ddb7757') in 0.0153484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Stairs_Platform_col.fbx
+  artifactKey: Guid(acf5bd68619ddcf46b1a64e73912ae63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Stairs_Platform_col.fbx using Guid(acf5bd68619ddcf46b1a64e73912ae63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b1a419c2c660e54a3ac308a985fdd59') in 0.0137034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Ledge.fbx
+  artifactKey: Guid(0974b7761dc22d74fa0d8eea917f6ed6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Ledge.fbx using Guid(0974b7761dc22d74fa0d8eea917f6ed6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d3a17e873ccd0abfa23ba1bf67029ac') in 0.0148017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_attachment_05.fbx
+  artifactKey: Guid(a21e34f035a9f7843a845bbdc6ba9f41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_attachment_05.fbx using Guid(a21e34f035a9f7843a845bbdc6ba9f41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd320c28effb4b4f643d8ba0bb59e6edf') in 0.0156473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Bottle_04.fbx
+  artifactKey: Guid(8d4e431aa8afeff4188180f08e6372f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Bottle_04.fbx using Guid(8d4e431aa8afeff4188180f08e6372f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5890c4d4c2c0267ccbf59a9c9d85c9ef') in 0.0169396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Corner_Inverted_col.fbx
+  artifactKey: Guid(6d7194ac1bbad814a9c59b96f5f65d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Corner_Inverted_col.fbx using Guid(6d7194ac1bbad814a9c59b96f5f65d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00917da96c5c79196e782a998cc341ca') in 0.0143402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Ground/CGM_ENV_GRD_rock4.fbx
+  artifactKey: Guid(94dc52c69d4742540b777493d69f2c9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Ground/CGM_ENV_GRD_rock4.fbx using Guid(94dc52c69d4742540b777493d69f2c9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3f19cd51d45b88ce22f4928f5d4b13f') in 0.0164664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_crack_02.fbx
+  artifactKey: Guid(0091848cbad259d429a122305655e64a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_crack_02.fbx using Guid(0091848cbad259d429a122305655e64a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66384f0a1daf86d8f1428a2fe4422398') in 0.0150164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials
+  artifactKey: Guid(ac442f7948caf9447894d9227b6e5ac5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials using Guid(ac442f7948caf9447894d9227b6e5ac5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f659627e7789e370e23b3ee059d886f1') in 0.0086636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Knight.png
+  artifactKey: Guid(9127bb7b525b8424fb967ef6627e220c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Knight.png using Guid(9127bb7b525b8424fb967ef6627e220c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ec971a04afd39cc5e1af764dd1923de') in 0.0149101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pouch_02.fbx
+  artifactKey: Guid(fd75eab5d79e7984c92758b28eb9618c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pouch_02.fbx using Guid(fd75eab5d79e7984c92758b28eb9618c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34382e95a218a57a8d75d04a937a4b78') in 0.0137248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sad 2.png
+  artifactKey: Guid(b860e7dca9b704845b229f98058259e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Sad 2.png using Guid(b860e7dca9b704845b229f98058259e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d4875981c75cfdb2c50e9e53b59fa94') in 0.0156723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Cloud 2.png
+  artifactKey: Guid(26296941768b8ce45919770860a12d3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Cloud 2.png using Guid(26296941768b8ce45919770860a12d3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68cc6bc1a6ef3eea05480043ced727b0') in 0.0150436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Music Off.png
+  artifactKey: Guid(cabad5b87dec1fd4e8749fa9f8936e63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Music Off.png using Guid(cabad5b87dec1fd4e8749fa9f8936e63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d23348979de82bdcaaf1d6be8447060') in 0.0137072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Rank.png
+  artifactKey: Guid(aae7fb6dbd42e0a4cb58d3a93643339e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Rank.png using Guid(aae7fb6dbd42e0a4cb58d3a93643339e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '585456092c21bf878776d91ad41f8a19') in 0.016418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/GraveType1_VeryDamaged_2.fbx
+  artifactKey: Guid(8b9a9a12e2699a247b03f73e8d53bd44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/GraveType1_VeryDamaged_2.fbx using Guid(8b9a9a12e2699a247b03f73e8d53bd44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f5615d3791fec6b6d5df698e5290cda') in 0.0151885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/LowPolyCan.fbx
+  artifactKey: Guid(d49ffdab3965cbf419ae723fe1dbbe3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/LowPolyCan.fbx using Guid(d49ffdab3965cbf419ae723fe1dbbe3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82b42cab0fbb60f04f0305529198cd0b') in 0.0146655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace
+  artifactKey: Guid(de45313f0002dbd46a791d2860a812f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace using Guid(de45313f0002dbd46a791d2860a812f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '054d4208d99e7b4c8078b3f802c98723') in 0.007298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_small_04.fbx
+  artifactKey: Guid(1c6c04264143c8445acd61d8d84dd325) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_small_04.fbx using Guid(1c6c04264143c8445acd61d8d84dd325) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '435920536807a58c35fb4fbbe8280dcc') in 0.0132902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Stop.png
+  artifactKey: Guid(4f90b440147d07c45b221ca084b4aad7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Stop.png using Guid(4f90b440147d07c45b221ca084b4aad7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '135207eda1df5c79aa80acce25eadc50') in 0.0152229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Border_Arched_col.fbx
+  artifactKey: Guid(24697760d409b664382f949795e1b485) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Border_Arched_col.fbx using Guid(24697760d409b664382f949795e1b485) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17ca33d89a469d12b9534b2207afd948') in 0.0143036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Ceil_05.fbx
+  artifactKey: Guid(d4d4c637577ebc3438a8fede6d7563c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Ceil_05.fbx using Guid(d4d4c637577ebc3438a8fede6d7563c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '826b7081ff0be93eb6db4e7edd7346ae') in 0.014031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Thin_board_01.fbx
+  artifactKey: Guid(9b895d4721e00bf44be4110fef7d6ec1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Thin_board_01.fbx using Guid(9b895d4721e00bf44be4110fef7d6ec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e06929bb0a906ce1ce1121972cd077ba') in 0.0143602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_02.fbx
+  artifactKey: Guid(de23ceef47708de43bca39679559dba2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_02.fbx using Guid(de23ceef47708de43bca39679559dba2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c988e16f2124c7d35996ea8badf674e') in 0.014639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Barrel_Collision.fbx
+  artifactKey: Guid(203d4d5388487ad4d90eadbb47ca38fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Barrel_Collision.fbx using Guid(203d4d5388487ad4d90eadbb47ca38fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d342559949d26581f9824c1be201287') in 0.0136398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Arched.fbx
+  artifactKey: Guid(e4178b2a02913d842aedef2eb60d1985) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Arched.fbx using Guid(e4178b2a02913d842aedef2eb60d1985) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa5ec7588631e87384b69751723347a5') in 0.0145434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_06.fbx
+  artifactKey: Guid(479795757cb667f418f7a461b2e3c214) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_06.fbx using Guid(479795757cb667f418f7a461b2e3c214) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd9ce363268792c727e8b797264bfa5') in 0.0150284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Level 1.png
+  artifactKey: Guid(896be68e4b2f49642bdf2adaf68ac8b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Level 1.png using Guid(896be68e4b2f49642bdf2adaf68ac8b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30a77f5d1a0f63db45f0bb0f520014e3') in 0.0148994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Home.png
+  artifactKey: Guid(83c65dcb40aa76c4c83e56e61f0fa50a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Home.png using Guid(83c65dcb40aa76c4c83e56e61f0fa50a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '559f41d0f7dd07a658cba867ec634091') in 0.0169802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Basement_VarX_col.fbx
+  artifactKey: Guid(8d167ccc6b656624fbc239038fe957f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Basement_VarX_col.fbx using Guid(8d167ccc6b656624fbc239038fe957f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffc365f30050dfe39a1f4c76b924fddb') in 0.0151557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/PolyRonin
+  artifactKey: Guid(e1f15c1cbe6b3e1468db2eb1645e84c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/PolyRonin using Guid(e1f15c1cbe6b3e1468db2eb1645e84c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '207a8fb8a1f059d13ef8dc0a80253d4e') in 0.0101196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials/Metal_Polished.mat
+  artifactKey: Guid(183cca77dcd801a47829150bf24acbeb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials/Metal_Polished.mat using Guid(183cca77dcd801a47829150bf24acbeb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66749628be3adeea3248278210850b98') in 0.0107263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles
+  artifactKey: Guid(d1105f75a2a286e4fba3fb57345f96d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles using Guid(d1105f75a2a286e4fba3fb57345f96d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef65016a2cc3cfa27b8d00ecfefef715') in 0.0090016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Border_Flat.fbx
+  artifactKey: Guid(6e198ba3384543040a57f4dc55928695) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Border_Flat.fbx using Guid(6e198ba3384543040a57f4dc55928695) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30b81c15a9518dfbce0712b884180733') in 0.016326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pieces_of_a_jug_05.fbx
+  artifactKey: Guid(e8d2ac41bc8ac5b49a9589d5db288b15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pieces_of_a_jug_05.fbx using Guid(e8d2ac41bc8ac5b49a9589d5db288b15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fc5b1f0cefbdb45050ca69c1a0e4546') in 0.0143376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Campfire_was_burning_01.fbx
+  artifactKey: Guid(ef5775ec6c680054298e00a090581f08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Campfire_was_burning_01.fbx using Guid(ef5775ec6c680054298e00a090581f08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5bced84b7c8cf9271ae868c4b53acb4') in 0.013977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pen.png
+  artifactKey: Guid(8f7b8cbf3f3080943b74eca26c930727) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Pen.png using Guid(8f7b8cbf3f3080943b74eca26c930727) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bac4b93121adcb247a3a52d7daaaf10') in 0.0168087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Tag.png
+  artifactKey: Guid(33188ea6f30bf7c4bbf425eca949248a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Tag.png using Guid(33188ea6f30bf7c4bbf425eca949248a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d21714041ebb93d17b90fbd15c1b3d7') in 0.0181802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/Free/Icon Sets.png
+  artifactKey: Guid(7747227fc69607f46833ce90b8776f0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/Icon Sets.png using Guid(7747227fc69607f46833ce90b8776f0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e4ca7a8b14d7e6f43aac476ed09c481') in 0.015709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_attachment_06.fbx
+  artifactKey: Guid(d18153ee329282246a442ef65434912f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_attachment_06.fbx using Guid(d18153ee329282246a442ef65434912f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd22d294bb8d18d8d1c7dcab0cd6c11e4') in 0.019282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_05.fbx
+  artifactKey: Guid(b5b7eb20518849f4f90b3a917a81a264) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_05.fbx using Guid(b5b7eb20518849f4f90b3a917a81a264) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0ed78f6adc423a2b449b9376d326916') in 0.0144714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Skull 2.png
+  artifactKey: Guid(9c2a11d25a21a814e9e081ddfd36e556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Skull 2.png using Guid(9c2a11d25a21a814e9e081ddfd36e556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c670f1bdf2a68995dbefbce803ccf65') in 0.0156755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_on_the_foundation_04.fbx
+  artifactKey: Guid(d729a5c94c85dfa4d9a94e65baf0e639) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_on_the_foundation_04.fbx using Guid(d729a5c94c85dfa4d9a94e65baf0e639) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3da0beeb6dc9644b3df757694ab3e08d') in 0.0190693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126276 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_05.fbx
+  artifactKey: Guid(786c86f240551824b9d93191df3317e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_05.fbx using Guid(786c86f240551824b9d93191df3317e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5067c213f31a02264e0c11d6e47637e3') in 0.0181856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Texture/LVL_Props/LVL_PRP_Albedo.png
+  artifactKey: Guid(c6b93f89140b7634aa05ea71386be8df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Texture/LVL_Props/LVL_PRP_Albedo.png using Guid(c6b93f89140b7634aa05ea71386be8df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '524388d6e69f654224ef33b060499945') in 0.0142676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Window.fbx
+  artifactKey: Guid(85215ddb67dce05478420137b344281d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Window.fbx using Guid(85215ddb67dce05478420137b344281d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5626f5f978161b4cf61b8ad647ae0ef7') in 0.0169713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Iron_Right_col.fbx
+  artifactKey: Guid(1a11b99e6435888469582d69e576670a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Iron_Right_col.fbx using Guid(1a11b99e6435888469582d69e576670a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fda4cf4cb77c23faee506908eda14a3c') in 0.0149336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_07.fbx
+  artifactKey: Guid(383ce4c7e1a42564ea4ac5ae769d6c52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_07.fbx using Guid(383ce4c7e1a42564ea4ac5ae769d6c52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '152789f7845667bebea809e29579cf07') in 0.0171973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/CanTexture.png
+  artifactKey: Guid(2af71ee8ce7a1d14ab83e0e879694e8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/CanTexture.png using Guid(2af71ee8ce7a1d14ab83e0e879694e8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ef2c064d10fa2ffbff1c55c3e244b53') in 0.0166661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stairs_02.fbx
+  artifactKey: Guid(3b085d9ad5f9271499f6640a9c4ef7cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stairs_02.fbx using Guid(3b085d9ad5f9271499f6640a9c4ef7cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81eec0adcdefb55c16f0ef1cfcd0aef8') in 0.0168321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pen 2.png
+  artifactKey: Guid(c99c6c33ed98b2742bb329bbbdc0b31d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Pen 2.png using Guid(c99c6c33ed98b2742bb329bbbdc0b31d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd31e05b77c0ff920e48b8f06d0d0e61d') in 0.0154133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_08.fbx
+  artifactKey: Guid(e7b2063fe1a9a6943876d5092be8a116) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Handle_08.fbx using Guid(e7b2063fe1a9a6943876d5092be8a116) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'facd588155120d80141de61b8be6af56') in 0.0139948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Key_Rusty.fbx
+  artifactKey: Guid(4009cba106d20f748ab650a274328adc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Key_Rusty.fbx using Guid(4009cba106d20f748ab650a274328adc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb6be7b84f4d0d01aa7c416706e69d96') in 0.0148626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_15.fbx
+  artifactKey: Guid(4d360ee5bd6863144a621752bc89c331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_15.fbx using Guid(4d360ee5bd6863144a621752bc89c331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '327f23415cdc1120d30d133b40d3d23a') in 0.014105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_03.fbx
+  artifactKey: Guid(5f975194efd8f0e45abb45c903fe5b0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_03.fbx using Guid(5f975194efd8f0e45abb45c903fe5b0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6fb51b760e576dd9e211489c4908272') in 0.0178952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_on_the_foundation_03.fbx
+  artifactKey: Guid(6ff55535058a2c44b9fd8a5703b632f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_on_the_foundation_03.fbx using Guid(6ff55535058a2c44b9fd8a5703b632f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff394013d5931991201a020f0d1e6191') in 0.0176371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/CrystalBall_Stand.fbx
+  artifactKey: Guid(202d822c8af712b4ebc5790fc0111392) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/CrystalBall_Stand.fbx using Guid(202d822c8af712b4ebc5790fc0111392) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cae95428c99196ea78aadfffbec73604') in 0.0120938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Piggy Bank.png
+  artifactKey: Guid(b5af7239969d5484a852faf7ec27fe23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Piggy Bank.png using Guid(b5af7239969d5484a852faf7ec27fe23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e669672e351b9510d59d50a703b6d87') in 0.0161634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_Brown.fbx
+  artifactKey: Guid(f379ef81d20eb3e4bb14c2695fa685d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_Brown.fbx using Guid(f379ef81d20eb3e4bb14c2695fa685d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3846b6889f9a9dc071d5447a06a58b16') in 0.0142645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Dark UI/Free/Button_Small_A.png
+  artifactKey: Guid(5ed7b78422faa044695989e1108c5d63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/Button_Small_A.png using Guid(5ed7b78422faa044695989e1108c5d63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9c7b1a3429e65c5cfdd0301207fdf79') in 0.0172309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_ornament19.fbx
+  artifactKey: Guid(7efb3688dae31c64d851512e6f9277d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_ornament19.fbx using Guid(7efb3688dae31c64d851512e6f9277d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5ee574a4c5e7be5a21e541942217eb6') in 0.0159562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Door_Right.fbx
+  artifactKey: Guid(7dc17e9f3a67d6e419d0c8c298690c5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Door_Right.fbx using Guid(7dc17e9f3a67d6e419d0c8c298690c5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f682c3069b3994d9d6f192ca1e4ad67') in 0.0165356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Straight_Half_col.fbx
+  artifactKey: Guid(5a128d3fdcbb89c449d4e8ac1bcb582b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Straight_Half_col.fbx using Guid(5a128d3fdcbb89c449d4e8ac1bcb582b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee191873737b56c90dcfe8f4940b9454') in 0.0164523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_01.fbx
+  artifactKey: Guid(5906c96ea0128f441b01e7ec121ca190) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_01.fbx using Guid(5906c96ea0128f441b01e7ec121ca190) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d07161d8c86a1f8c11a410a390f9217') in 0.0181664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Message.png
+  artifactKey: Guid(1942a53187250b94aa25ea73656f2ca1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Message.png using Guid(1942a53187250b94aa25ea73656f2ca1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd07ab38921f762b8992701e2e271c4fb') in 0.0146273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var2.fbx
+  artifactKey: Guid(5bfb915843a9ff74d9bea72ce38a0a89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var2.fbx using Guid(5bfb915843a9ff74d9bea72ce38a0a89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '928e48dca22abd2f1a875df971957b37') in 0.0164108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Subtract.png
+  artifactKey: Guid(83c48d5ebdbe1aa4289d3ab22bce4475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Subtract.png using Guid(83c48d5ebdbe1aa4289d3ab22bce4475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8679a797f0cac4f6a4fa66e551c787e7') in 0.0155076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_tile_black3.fbx
+  artifactKey: Guid(2b96661a23bdf284285e05c9a918c483) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_tile_black3.fbx using Guid(2b96661a23bdf284285e05c9a918c483) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f079fb1672165126c760776d55627659') in 0.0162912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Camera 2.png
+  artifactKey: Guid(f0877a1116c0ab642af83f17fd98f570) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Camera 2.png using Guid(f0877a1116c0ab642af83f17fd98f570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a25a09c20c4931d56c4cecd0e35ab85') in 0.0149186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Long_board_01.fbx
+  artifactKey: Guid(9c55af873be996446b8a32d0fccb2676) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Long_board_01.fbx using Guid(9c55af873be996446b8a32d0fccb2676) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03205346dd85fbf6e83465a33d718ab9') in 0.0158748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_small_01.fbx
+  artifactKey: Guid(d17c532cb4445b443972abbe44db7210) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_small_01.fbx using Guid(d17c532cb4445b443972abbe44db7210) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4b29daaab6341f20f328613d3a574d1') in 0.0157212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Weight.png
+  artifactKey: Guid(9ad82a29e4224b94ca03348de459ebff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Weight.png using Guid(9ad82a29e4224b94ca03348de459ebff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a23b141396274fac2373150be035c9a') in 0.0161951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Ticket 1.png
+  artifactKey: Guid(c8a8d1a5f0a8d6546979bb778ce96875) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Ticket 1.png using Guid(c8a8d1a5f0a8d6546979bb778ce96875) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70e664e6be0d02b28d93f5276a886829') in 0.0184683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_10.fbx
+  artifactKey: Guid(c14ac0d6c75a43f4899b1d0fe8d2b388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_10.fbx using Guid(c14ac0d6c75a43f4899b1d0fe8d2b388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84f4fdcd7a80d243cecb9ab08e235f61') in 0.0169748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Ribbon 2.png
+  artifactKey: Guid(f46d0f8f82c9f794696f908a7f70fc5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Ribbon 2.png using Guid(f46d0f8f82c9f794696f908a7f70fc5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c23f9d9a5fc5ca4139587189566e709') in 0.0153789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Key.png
+  artifactKey: Guid(e3dc68783919341458e70e2a3ed5ebc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Key.png using Guid(e3dc68783919341458e70e2a3ed5ebc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e407d7aa1c7e7e9ca18c240336ff25d0') in 0.0163563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/GraveType5_Damaged_2.fbx
+  artifactKey: Guid(bb3505835739c824c8bc058cd1807f62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/GraveType5_Damaged_2.fbx using Guid(bb3505835739c824c8bc058cd1807f62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b921796be82bb5ef0522e38f024d919') in 0.0175196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_small_07.fbx
+  artifactKey: Guid(07d6bc0fed599064b82f23ef1e7b9fdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_small_07.fbx using Guid(07d6bc0fed599064b82f23ef1e7b9fdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '728fb1ca53ef6291c9a585d4410eabbf') in 0.0150344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Gear 1.png
+  artifactKey: Guid(4b94d7f6694c89540b680526f83dcfdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Gear 1.png using Guid(4b94d7f6694c89540b680526f83dcfdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d48154cff629ce0bfa97633a98bad87') in 0.0164798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_corner_01.fbx
+  artifactKey: Guid(79b4eae6892650342981dd9d6c38fcd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_corner_01.fbx using Guid(79b4eae6892650342981dd9d6c38fcd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '438c3144a902f1ffc8816997f9299859') in 0.0150959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pen 3.png
+  artifactKey: Guid(8c692c044905f4b41986747104e4cae4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Pen 3.png using Guid(8c692c044905f4b41986747104e4cae4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5fe857bb9caa5a2ca4030946a0f7c19') in 0.0146054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/LowPolyHammer.fbx
+  artifactKey: Guid(b9de1e8db96765544abf207b03d80a0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/LowPolyHammer.fbx using Guid(b9de1e8db96765544abf207b03d80a0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c106bfcbd97febbc357bc549f546688') in 0.0141273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_big_04.fbx
+  artifactKey: Guid(2457df40155007b4d92a9d6615026ab6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_group_big_04.fbx using Guid(2457df40155007b4d92a9d6615026ab6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64034d5013efa0626a18043d464d6633') in 0.0162801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_02.fbx
+  artifactKey: Guid(e0e9065218c44e2439177319ad713ea8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Hinges_02.fbx using Guid(e0e9065218c44e2439177319ad713ea8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd568dba5544d698992fa71812f2d7b60') in 0.0155851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/LowPolyKnife.fbx
+  artifactKey: Guid(10c4b2c0bd3d9e54992a46780104f598) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/LowPolyKnife.fbx using Guid(10c4b2c0bd3d9e54992a46780104f598) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c77f517a325c0af69e2488c8a5b65142') in 0.0135173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Weapons/CGM_ENV_WEP_shield3.fbx
+  artifactKey: Guid(0c28e2396b9523649b199da26bb751a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Weapons/CGM_ENV_WEP_shield3.fbx using Guid(0c28e2396b9523649b199da26bb751a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '708dc3130931508139adfbc7d8cb2420') in 0.0143831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Banner.fbx
+  artifactKey: Guid(b6e99e0c07eb2d04098b9c9515d5d165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Banner.fbx using Guid(b6e99e0c07eb2d04098b9c9515d5d165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbb22134ff60b0c59630fbb72862724e') in 0.0147901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Pedestal_01.fbx
+  artifactKey: Guid(b2b84d202ba836546bee9640a8cdea63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Pedestal_01.fbx using Guid(b2b84d202ba836546bee9640a8cdea63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89812ad5cf8bc2ce622ed2e99deaf6a1') in 0.0150725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/PolyRonin/Archaeological Adventurer Tools Pack
+  artifactKey: Guid(b10bb2e5f4eed6142a3701cb9c092c3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/PolyRonin/Archaeological Adventurer Tools Pack using Guid(b10bb2e5f4eed6142a3701cb9c092c3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15da83418f6477a764bd76d1365ff161') in 0.0094208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/Dark UI/Free/A.png
+  artifactKey: Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/A.png using Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58d3c022c2ba890fe877064bf4e2a164') in 0.0170646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Forward 2.png
+  artifactKey: Guid(c41764f0b53023446b4246340f64381b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Forward 2.png using Guid(c41764f0b53023446b4246340f64381b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21947cc3865481c740b764ea3e74d342') in 0.0173768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_10.fbx
+  artifactKey: Guid(5d2a6e2e217a59d41b16b395515879c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Floor_10.fbx using Guid(5d2a6e2e217a59d41b16b395515879c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '153ad6ef46ac80d2bd74dc0cea8aa568') in 0.0187773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_cactus21.fbx
+  artifactKey: Guid(4196c3a72aad8dd478d542959e47b987) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_cactus21.fbx using Guid(4196c3a72aad8dd478d542959e47b987) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83c063fcfc79df551d86198e611ecc97') in 0.0151145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/LowPolyMachete.fbx
+  artifactKey: Guid(6d4ae3aa162ab80429b61e47ad9cacbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/LowPolyMachete.fbx using Guid(6d4ae3aa162ab80429b61e47ad9cacbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2425f6c185b72614c5e08fc900ae1433') in 0.0160699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_04.fbx
+  artifactKey: Guid(4f7216dc4ddc4be45a95ab1b4bd978f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_04.fbx using Guid(4f7216dc4ddc4be45a95ab1b4bd978f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a167e91f4ce01761edb1c992a92b299') in 0.0172717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Select.png
+  artifactKey: Guid(6c5836c8c1310914b85347abf9a4dc63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Select.png using Guid(6c5836c8c1310914b85347abf9a4dc63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '549499682f8825985dcebd149b4adbc5') in 0.013877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White ScrewDriver.png
+  artifactKey: Guid(25c0d8702947c8949b6593f764399b5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White ScrewDriver.png using Guid(25c0d8702947c8949b6593f764399b5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dbb0dee46c575dbb593fcfc7938d842') in 0.014859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_08.fbx
+  artifactKey: Guid(ad479b8443137bd459ec01f94176f89a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Floor_dust_Collision_08.fbx using Guid(ad479b8443137bd459ec01f94176f89a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99a4d4262fee36ee10314627228a490b') in 0.0157436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Stairs_Low.fbx
+  artifactKey: Guid(49fcc1a1bf581d4489a835b31d909c9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Stairs_Low.fbx using Guid(49fcc1a1bf581d4489a835b31d909c9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e84c18f29172c7db519fc1cc34fb579a') in 0.0159932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_01.fbx
+  artifactKey: Guid(e0c7de480da4c07479e87a759f57e031) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_01.fbx using Guid(e0c7de480da4c07479e87a759f57e031) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '833b1785adb3b2a50f1cf59162f71cba') in 0.0158316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_02.fbx
+  artifactKey: Guid(43287178c04c48748bc71d64bd4d6ee0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_02.fbx using Guid(43287178c04c48748bc71d64bd4d6ee0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1edd9725529efb15e103f977fa955649') in 0.017022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Fireplace.fbx
+  artifactKey: Guid(6ed8baf2e73423e46aa82a481016b6b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Fireplace.fbx using Guid(6ed8baf2e73423e46aa82a481016b6b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d0062a7ebab836b74205a78c28b9e9') in 0.0157757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Thin_long_board_01.fbx
+  artifactKey: Guid(54236311a90e352439144c2a46fdd674) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Thin_long_board_01.fbx using Guid(54236311a90e352439144c2a46fdd674) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55e97a52ae9e940cbec28e7f7c40355b') in 0.024635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/GraveCircleMini_2.fbx
+  artifactKey: Guid(7593c11e6dca4f94f92f7895769fd8bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/GraveCircleMini_2.fbx using Guid(7593c11e6dca4f94f92f7895769fd8bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc840234a2636eb0cbabd26d52b8669') in 0.0216368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Dark UI/Free/Left Arrow.png
+  artifactKey: Guid(210e6a7b28c57aa4e9408866e861895c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/Left Arrow.png using Guid(210e6a7b28c57aa4e9408866e861895c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdcb7cde8c88099a954aa5d2a7132741') in 0.0185563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/GraveyardProps/Textures
+  artifactKey: Guid(638518f1fa06fd440b0da02fc0044346) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Textures using Guid(638518f1fa06fd440b0da02fc0044346) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb1c5606faa4880806d1639645d8b50f') in 0.0102704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White AddFriend.png
+  artifactKey: Guid(3f07c11b6e18cf343a9925d1b80d287d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White AddFriend.png using Guid(3f07c11b6e18cf343a9925d1b80d287d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff6c68cc4eec167cb665c632b35c7cd9') in 0.0183498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_border2.fbx
+  artifactKey: Guid(0d94bfa58be435c469251ef0e96181a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_border2.fbx using Guid(0d94bfa58be435c469251ef0e96181a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a18c0d0e7501e47966a18f4d974ee4a6') in 0.0190558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Open.fbx
+  artifactKey: Guid(2d45f032ced62804ea8fd7b2ebb7f461) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Open.fbx using Guid(2d45f032ced62804ea8fd7b2ebb7f461) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24c1bb6727df0f8b692028bba28b20ee') in 0.0163869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Standing_lamp.fbx
+  artifactKey: Guid(064f645c1bb2af34ea0412a5c1cc80cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Standing_lamp.fbx using Guid(064f645c1bb2af34ea0412a5c1cc80cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79661a30a9daa832f6aa03a9dc39cd87') in 0.0211249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Staircase_col.fbx
+  artifactKey: Guid(60ecd2fe0098d6f4fb127956936bec93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Staircase_col.fbx using Guid(60ecd2fe0098d6f4fb127956936bec93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '662aadff4473097550739483b83e56a4') in 0.0165653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Small.fbx
+  artifactKey: Guid(82c33bb50f891694a96df903cca9ea3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Small.fbx using Guid(82c33bb50f891694a96df903cca9ea3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e78f6643df1e0edfeed7c3d6fcbb7626') in 0.0156274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Staircase.fbx
+  artifactKey: Guid(4886ccf4840cd474a9e74a3f8898a3e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Staircase.fbx using Guid(4886ccf4840cd474a9e74a3f8898a3e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a70e3669f00b667cf6d59a4e1ab717a4') in 0.0151076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Speed Boost 2.png
+  artifactKey: Guid(8bed94d544d1a7243a0281fe7aef409f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Speed Boost 2.png using Guid(8bed94d544d1a7243a0281fe7aef409f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f5945bcb565275522a5de1fab1a9fb2') in 0.0126554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_05.fbx
+  artifactKey: Guid(43cdf771cda64804a9f9ce7379ac7c08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_05.fbx using Guid(43cdf771cda64804a9f9ce7379ac7c08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd5728f9197258eadf625c95d90e097f') in 0.0142599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Energy 2.png
+  artifactKey: Guid(64d182adf2398fe478c63ba1cd15a097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Energy 2.png using Guid(64d182adf2398fe478c63ba1cd15a097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a684b4580c77d3d0e894d4126329becc') in 0.0137311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Clover.png
+  artifactKey: Guid(8bb0d793364b4f24099b857dedd6837a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Clover.png using Guid(8bb0d793364b4f24099b857dedd6837a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb3d3f92c4b3abe8e799b1cff7707882') in 0.0164181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_small_02.fbx
+  artifactKey: Guid(929b1a0cccc70d043ac732f3f22020dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Book_small_02.fbx using Guid(929b1a0cccc70d043ac732f3f22020dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b58134bd9ef09a3aa47d068f0b91ecb5') in 0.016781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_01.fbx
+  artifactKey: Guid(c98e75160b2f42142825552c9b9b7930) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Stone_doorway_01.fbx using Guid(c98e75160b2f42142825552c9b9b7930) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b57a157ed7dea1da6d0dba8e21c3ff2') in 0.0122088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Move LeftRight.png
+  artifactKey: Guid(fe79327cfcd3b5b48af90aa371100725) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Move LeftRight.png using Guid(fe79327cfcd3b5b48af90aa371100725) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f99fb44a25bfa6280c132a91a1bd9856') in 0.0144459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/GraveyardProps/Textures/ParticleMist.png
+  artifactKey: Guid(ecf69f0cd89f39d47a51ca55d27bcfe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Textures/ParticleMist.png using Guid(ecf69f0cd89f39d47a51ca55d27bcfe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34e03e1ab37114c55cee7e2e71f59e09') in 0.0157258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Inverted_col.fbx
+  artifactKey: Guid(f891dad56c0c8ae4bbf7d07300646ec9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Inverted_col.fbx using Guid(f891dad56c0c8ae4bbf7d07300646ec9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e87de5c6a46b9b24f418420eefceaaaa') in 0.0145795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Hamer.png
+  artifactKey: Guid(f35423bff8ff20d41a614e25f602169b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Hamer.png using Guid(f35423bff8ff20d41a614e25f602169b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39fc6a1d714dfeaec9987ffaf42e407b') in 0.0179466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_05.fbx
+  artifactKey: Guid(b9c2016091dc36546b402c1bebe2bf45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wall_05.fbx using Guid(b9c2016091dc36546b402c1bebe2bf45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e919462ffccc19192e5b3a88d4e8960') in 0.0158563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Anvil.png
+  artifactKey: Guid(3f74aec16809b204a9aa421fa2f77723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Anvil.png using Guid(3f74aec16809b204a9aa421fa2f77723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ea3a92b2e29fa8027dd79b97ae22fe5') in 0.0166452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/SwitchSecret_Button.fbx
+  artifactKey: Guid(b3ac41660e62c834b85393751870f565) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/SwitchSecret_Button.fbx using Guid(b3ac41660e62c834b85393751870f565) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6439d18c3c5dfe9e7a658e775e33acea') in 0.0157545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/GraveyardProps/Meshes/SummoningStoneDetailed.fbx
+  artifactKey: Guid(03ce185ea3194094497db8772a2637ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps/Meshes/SummoningStoneDetailed.fbx using Guid(03ce185ea3194094497db8772a2637ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f32e039083bbe0248bd8024896a119d1') in 0.0201484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Gate_col.fbx
+  artifactKey: Guid(3fe5630804cb08a48bcd1987a685adcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Gate_col.fbx using Guid(3fe5630804cb08a48bcd1987a685adcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dc55cfd7c19785560efebe3a7b4a704') in 0.0148721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Wooden_doorway_Collision.fbx
+  artifactKey: Guid(75da865c8ec5be947aab7eda68810f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/CollisionConvex/NGF_Env_Wooden_doorway_Collision.fbx using Guid(75da865c8ec5be947aab7eda68810f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b1ec93def3c5d27127879e21655dd2') in 0.0149456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_cactus6.fbx
+  artifactKey: Guid(9174d3a361a2ed544bdd24a9c63d1a49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Vegetation/CGM_ENV_VEG_cactus6.fbx using Guid(9174d3a361a2ed544bdd24a9c63d1a49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '047074e2a1d3ea16ab659b38b1e6ec11') in 0.0151063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Skull.png
+  artifactKey: Guid(f48cf026170fb2245920a77961889595) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Skull.png using Guid(f48cf026170fb2245920a77961889595) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '196b7d19457d822bcdf5ade25de91101') in 0.0157273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/GraveyardProps
+  artifactKey: Guid(c125e49921cdde941a2eb21359b41798) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/GraveyardProps using Guid(c125e49921cdde941a2eb21359b41798) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbd5854ff1e7649f4b754a568a5b7182') in 0.0085457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Dark UI/Free/InputField.png
+  artifactKey: Guid(6cbf273c77eba1a448f3c04ff4292030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/InputField.png using Guid(6cbf273c77eba1a448f3c04ff4292030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd9a9a83c55b3baccb821ae1c0ae50f9') in 0.0168852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Hanging_lamp.fbx
+  artifactKey: Guid(f4591a8a2d6d8d44f92ad23458aa2f15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Hanging_lamp.fbx using Guid(f4591a8a2d6d8d44f92ad23458aa2f15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17810add112e8642e142b5eb358b01b0') in 0.0200372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Target 1.png
+  artifactKey: Guid(fbfbf4e278b075544975b8a7cfc45f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Target 1.png using Guid(fbfbf4e278b075544975b8a7cfc45f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d72963aec5230b6e78db78fa31f2dfa') in 0.0153394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/WoodPileTexture.png
+  artifactKey: Guid(2a59cd5f8ebfe824b86bf42be0b31ba7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/WoodPileTexture.png using Guid(2a59cd5f8ebfe824b86bf42be0b31ba7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84645daa0c6c7a30c52a8dc55428c013') in 0.0133779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Power Up 2.png
+  artifactKey: Guid(18e7d3ae1d658eb488e528eba8f5dbb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Power Up 2.png using Guid(18e7d3ae1d658eb488e528eba8f5dbb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59a05fdb6244225c617c83ace31d5139') in 0.0148384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Play.png
+  artifactKey: Guid(82cc141cf0a983044b70b85573c5314d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Play.png using Guid(82cc141cf0a983044b70b85573c5314d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '266bf48579dcd0e268ac57864e3fe910') in 0.0128169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_ornament8.fbx
+  artifactKey: Guid(9587069cb468e3f42bdb5a6c69ad88ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Egyptian Palace/Models/Buildings/LVL_3/CGM_ENV_BLD_LVL3_ornament8.fbx using Guid(9587069cb468e3f42bdb5a6c69ad88ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '364348fbbfd6e3f642c0518a35d3d2e0') in 0.0182477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_arc_06.fbx
+  artifactKey: Guid(c285d761f1745c24da9f624a3c9530fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Door_arc_06.fbx using Guid(c285d761f1745c24da9f624a3c9530fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '910a6f3ac9755bcc11d77c872269b6bf') in 0.0152897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Alarm 2.png
+  artifactKey: Guid(8bc5f3314f9c4ab40bc4f83e50c6b997) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Alarm 2.png using Guid(8bc5f3314f9c4ab40bc4f83e50c6b997) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a54e6653889330e9f1c508a720d895d9') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wooden_bar_03.fbx
+  artifactKey: Guid(af3ea264c3189eb4ba3029f774dca1df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Wooden_bar_03.fbx using Guid(af3ea264c3189eb4ba3029f774dca1df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6c6920309b400bd205a88ac8b822d15') in 0.0143098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/Dark UI/Free/32 Light.png
+  artifactKey: Guid(a689281f545979940b5cedad12ec31a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/32 Light.png using Guid(a689281f545979940b5cedad12ec31a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1f91ab6283ea8aa6b5f66341e0fddea') in 0.0150166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pieces_of_a_jug_17.fbx
+  artifactKey: Guid(5e84ba6e916804346aab1cf0a9ee1d8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Pieces_of_a_jug_17.fbx using Guid(5e84ba6e916804346aab1cf0a9ee1d8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3edee735869b626aa20760b7f7b8d272') in 0.0176741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/Free/X.png
+  artifactKey: Guid(af19b810ad81d8741ba1583f72a9d93c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Free/X.png using Guid(af19b810ad81d8741ba1583f72a9d93c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64b3103cc295e05ab171ddaee67ca68a') in 0.0139434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Jug_04.fbx
+  artifactKey: Guid(f4cc9d588b5c5f74e951184a310f51bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Jug_04.fbx using Guid(f4cc9d588b5c5f74e951184a310f51bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6e9186d74f412a98576baa4f07039f9') in 0.0132803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/Materials
+  artifactKey: Guid(ebbb11b37c2c93346a80eb397984d334) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/Materials using Guid(ebbb11b37c2c93346a80eb397984d334) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a521d251e000d1ea4f4c4aef483ae799') in 0.0087998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pumpkin.png
+  artifactKey: Guid(8f31f7b4e0bdab94182af78c52249983) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Pumpkin.png using Guid(8f31f7b4e0bdab94182af78c52249983) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78dd5dc86872e3c0267b60c05fe905a8') in 0.0151272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/Dark UI/Prefabs Buttons/Info Button.prefab
+  artifactKey: Guid(54438c6f0e116ac4eb3b7f02368e4ccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/Prefabs Buttons/Info Button.prefab using Guid(54438c6f0e116ac4eb3b7f02368e4ccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '642dd986886287b7a1d1edfaf56f2d18') in 0.041211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Return.png
+  artifactKey: Guid(cb186d85a860f3348acfd63ce4bb1a68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Dark UI/New Icons/White Return.png using Guid(cb186d85a860f3348acfd63ce4bb1a68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b20dd53f64afeaa1a4d1e085f28b4858') in 0.0157519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/StairsTexture.png
+  artifactKey: Guid(b2aff97fe8448dd42910ceb935370e90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/Low Poly Survival Game Props/Models/Materials/Textures/StairsTexture.png using Guid(b2aff97fe8448dd42910ceb935370e90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '932492a4f9be0eb4c3326159a4fc503c') in 0.0184129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Ceil_03.fbx
+  artifactKey: Guid(0af3dbc2768baec4aa9f8b28fea15f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Ceil_03.fbx using Guid(0af3dbc2768baec4aa9f8b28fea15f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bf99830b04a5eb3423420ad8bf321d8') in 0.0182141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_02.fbx
+  artifactKey: Guid(e26f38f502748d244a156626859496fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_medium_02.fbx using Guid(e26f38f502748d244a156626859496fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680b2274ff6a32eb7815ee985da11781') in 0.0220991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_big_04.fbx
+  artifactKey: Guid(f8281ecb27d38e8449c7eddefe7e8ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Light_Crystal_big_04.fbx using Guid(f8281ecb27d38e8449c7eddefe7e8ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96ab82644d92a3e77b853bd742f41742') in 0.0202337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_03.fbx
+  artifactKey: Guid(10158ff80ef91db428885b8a2542ffcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Env_Brick_03.fbx using Guid(10158ff80ef91db428885b8a2542ffcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b03cd883508c7fe12c1b78b616875160') in 0.0198564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/CoatHook.fbx
+  artifactKey: Guid(3ccb0977f789b7d42a354aaecafd75a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Furniture/CoatHook.fbx using Guid(3ccb0977f789b7d42a354aaecafd75a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '125f9198c7d5466756f76aa227d8b1d1') in 0.0192806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Stool_01.fbx
+  artifactKey: Guid(fe4e34ba18086fb43b30c81918ed516d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/N-GonForge Dungeon/Dungeon/Models/NGF_Stool_01.fbx using Guid(fe4e34ba18086fb43b30c81918ed516d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f1cc27cb3c80834fe66a42fd6d40a6f') in 0.0209888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials/Metal_Rusty.mat
+  artifactKey: Guid(03153ecca89c35342ae7a4b74db2da47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Materials/Metal_Rusty.mat using Guid(03153ecca89c35342ae7a4b74db2da47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e4d8d9d1981adfc6724960d172e74dc') in 0.0137511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Flat.fbx
+  artifactKey: Guid(5a701196acb4f784eb677754e424a0b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Flat.fbx using Guid(5a701196acb4f784eb677754e424a0b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c1b0a065496ed3f4464a588de88a6c7') in 0.0210308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
